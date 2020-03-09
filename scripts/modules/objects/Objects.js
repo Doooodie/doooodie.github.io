@@ -1,5 +1,7 @@
-import dynamicObjects from "./DynamicObjects.js";
-import { ptero, sun } from "./ObjectConstructor.js";
+import { sun } from "./ObjectConstructor.js";
+import Background from "./instances/Background.js";
+import Obstacles from "./instances/Obstacles.js";
+import ptero from "./instances/Ptero.js";
 
 class Objects {
 	constructor() {
@@ -11,7 +13,8 @@ class Objects {
 			object.draw(ctx);
 		});
 
-		dynamicObjects.draw();
+		Background.draw();
+		Obstacles.draw();
 	}
 }
 
