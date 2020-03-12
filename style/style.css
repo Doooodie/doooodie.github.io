@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 canvas {
 	background: #f7f7f7;
 	display: block;
 	margin: auto;
 	margin-top: 5%;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	font: 100px "Press Start 2P";
+	text-align: center;
 }
