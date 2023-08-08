@@ -18,9 +18,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-router-dom', 'react-dom'],
-          redux: ['@reduxjs/toolkit', 'react-redux', 'redux-persist'],
-          mantine: ['@emotion/react', '@mantine/core', '@mantine/form', '@mantine/hooks'],
+          vendor: ['react'],
+          mantine: ['@emotion/react', '@mantine/core', '@mantine/hooks'],
         },
       },
     },
