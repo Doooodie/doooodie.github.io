@@ -1,0 +1,53 @@
+[
+  {
+    "value": "rs-react",
+    "name": "RS School / React",
+    "link": "https://drive.google.com/file/d/1XtpiRWLC3NtDIOc8uKXwFLtF3AD-KDyn/view?usp=sharing",
+    "startDate": "March 2023",
+    "endDate": "June 2023",
+    "skills": [
+      "Grade: 387 out of 485",
+      "React components (functional and class components)",
+      "Knowledge of JSX (JavaScript XML)",
+      "State management (Redux, Redux Toolkit)",
+      "React Router",
+      "Virtual DOM",
+      "Component lifecycle (componentDidMount, componentDidUpdate, and componentWillUnmount)",
+      "Hooks",
+      "API integration (Axios, RTK Query)",
+      "Styling (Styled Components, CSS modules, Material UI, Mantine)",
+      "Testing (Vitest, React Testing Library, Cypress)",
+      "Performance optimization (memoization, code splitting, lazy loading)"
+    ]
+  },
+  {
+    "value": "rs-javascript",
+    "name": "RS School / Javascript",
+    "link": "https://drive.google.com/file/d/1PnI6vn6M-nIkTAvMY--5RmMSin_KI5HG/view?usp=sharing",
+    "startDate": "September 2022",
+    "endDate": "March 2023",
+    "skills": [
+      "Grade: 3597.1 out of 3956",
+      "Git, GitHub, commits and pull requests",
+      "Responsive layout",
+      "JS basics",
+      "Solutions of algorithmic problems",
+      "DOM, DOM Events, Browser API",
+      "OOP",
+      "Asynchronous programming",
+      "Typescript",
+      "NodeJS"
+    ]
+  },
+  {
+    "value": "it-academy",
+    "name": "IT-Academy",
+    "link": "https://drive.google.com/file/d/1Zc8raiuxStffkMTjaOMeMorkoeYm4lIw/view?usp=sharing",
+    "startDate": "December 2019",
+    "endDate": "March 2020",
+    "skills": [
+      "Grade: 10 out of 10",
+      "The course program included an in-depth study of the main frontend web development technologies (string and array methods, object-oriented programming, MVC, SPA, Webpack). At the end of the course, a graduation project was developed and successfully defended (development of a browser game using the JavaScript programming language and JSON, Ajax, Canvas, SVG, object-oriented programming technologies)"
+    ]
+  }
+]

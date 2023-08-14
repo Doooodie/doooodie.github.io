@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Jobored",
+    "screenshot": "/src/assets/screenshots/jobored.jpeg",
+    "description": "Jobored is a project designed to simplify and enhance the job search process. With a clean and intuitive user interface, Jobored empowers users to efficiently navigate through a plethora of job listings, apply smart filters, and curate a personalized list of favorite opportunities.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "React Router",
+      "Redux Toolkit",
+      "Redux Persist",
+      "RTK Query",
+      "Mantine"
+    ],
+    "github": "https://github.com/Doooodie/jobored",
+    "deploy": "https://doodie-jobored.netlify.app"
+  },
+  {
+    "title": "Notes App",
+    "screenshot": "/src/assets/screenshots/notes-app.jpeg",
+    "description": "Notes App allows you to write text notes and save them between sessions.",
+    "skills": ["Javascript", "React", "Material UI", "Redux Toolkit", "Redux Persist"],
+    "github": "https://github.com/Doooodie/nyblecraft-notes",
+    "deploy": "https://doodie-notes.netlify.app"
+  },
+  {
+    "title": "Badoone Drive",
+    "screenshot": "/src/assets/screenshots/badoone-drive.jpeg",
+    "description": "The project is a Google Drive copy with authorization, ability to upload, download, rename and remove files.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "React Router",
+      "Redux Toolkit",
+      "Redux Persist",
+      "RTK Query",
+      "Material UI",
+      "i18next",
+      "express",
+      "postgres"
+    ],
+    "github": "https://github.com/Doooodie/rs-clone",
+    "deploy": "https://badoone-drive.onrender.com"
+  },
+  {
+    "title": "Online Store",
+    "screenshot": "/src/assets/screenshots/online-store.jpeg",
+    "description": "The project is an online store copy with list of goods, cart, ability to browse through products and buy them.",
+    "skills": [
+      "Typescript",
+      "Modules",
+      "Webpack",
+      "Data sorting",
+      "Data filtering",
+      "Search implementation",
+      "Data validation",
+      "Routing"
+    ],
+    "github": "https://github.com/Doooodie/online-store-team",
+    "deploy": "https://doodie-store.netlify.app"
+  },
+  {
+    "title": "Songbird",
+    "screenshot": "/src/assets/screenshots/songbird.jpeg",
+    "description": "Songbird is a single page quiz app for recognizing birds by their voices.",
+    "skills": ["HTML", "CSS", "Javascript", "Game", "Puzzle"],
+    "github": "https://github.com/Doooodie/songbird",
+    "deploy": "https://doooodie.github.io/songbird"
+  },
+  {
+    "title": "Gem Puzzle",
+    "screenshot": "/src/assets/screenshots/gem-puzzle.jpeg",
+    "description": "Game is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The puzzle also exists in other sizes, particularly the smaller 8-puzzle. If the size is 3×3 tiles, the puzzle is called the 8-puzzle or 9-puzzle, and if 4×4 tiles, the puzzle is called the 15-puzzle or 16-puzzle named, respectively, for the number of tiles and the number of spaces. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.",
+    "skills": ["Javascript", "Game", "Puzzle"],
+    "github": "https://github.com/Doooodie/gem-puzzle",
+    "deploy": "https://doooodie.github.io/gem-puzzle"
+  },
+  {
+    "title": "Online Zoo",
+    "screenshot": "/src/assets/screenshots/online-zoo.jpeg",
+    "description": "Online-zoo is a platform that collects information about animals from various zoos with webcams. It is assumed that the user can open a page with zoo resources, watch one of the animals, or make a donation that will be used to purchase food. As part of the task, I had to make an adaptive layout and interactivity of the main page, and the page with donations.",
+    "skills": ["HTML", "CSS", "Javascript", "Flexbox", "Figma"],
+    "github": "https://github.com/Doooodie/online-zoo",
+    "deploy": "https://doooodie.github.io/online-zoo"
+  },
+  {
+    "title": "Pterodactyl",
+    "screenshot": "/src/assets/screenshots/pterodactyl.jpeg",
+    "description": "The project is a game written in the style of object-oriented programming.",
+    "skills": ["HTML5", "CSS3", "Flexbox", "Async Javascript", "Canvas JS"],
+    "github": "https://github.com/Doooodie/Pterodactyl",
+    "deploy": "https://doooodie.github.io/Pterodactyl"
+  }
+]

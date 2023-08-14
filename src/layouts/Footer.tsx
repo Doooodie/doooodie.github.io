@@ -1,53 +1,51 @@
-import { createStyles, Container, Group, ActionIcon, rem, Text } from '@mantine/core';
-import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
-
-const useStyles = createStyles((theme) => ({
-  footer: {
-    marginTop: rem(120),
-    borderTop: `${rem(1)} solid ${
-      theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[2]
-    }`,
-  },
-
-  inner: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingTop: theme.spacing.xl,
-    paddingBottom: theme.spacing.xl,
-
-    [theme.fn.smallerThan('xs')]: {
-      flexDirection: 'column',
-    },
-  },
-
-  links: {
-    [theme.fn.smallerThan('xs')]: {
-      marginTop: theme.spacing.md,
-    },
-  },
-}));
+import {
+  Container,
+  Group,
+  ActionIcon,
+  Text,
+  Footer as MantineFooter,
+  MediaQuery,
+} from '@mantine/core';
+import { IconBrandLinkedin, IconBrandGithub, IconMail } from '@tabler/icons-react';
 
 function Footer() {
-  const { classes } = useStyles();
-
   return (
-    <div className={classes.footer}>
-      <Container className={classes.inner}>
-        <Text>With ❤️ from Doodie, 2023</Text>
-        <Group spacing={0} className={classes.links} position='right' noWrap>
-          <ActionIcon size='lg'>
-            <IconBrandTwitter size='1.05rem' stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size='lg'>
-            <IconBrandYoutube size='1.05rem' stroke={1.5} />
-          </ActionIcon>
-          <ActionIcon size='lg'>
-            <IconBrandInstagram size='1.05rem' stroke={1.5} />
-          </ActionIcon>
-        </Group>
-      </Container>
-    </div>
+    <MantineFooter height='auto' p='md'>
+      <MediaQuery smallerThan='xs' styles={{ flexDirection: 'column' }}>
+        <Container display='flex' sx={{ justifyContent: 'space-between', alignItems: 'center' }}>
+          <Text>With ❤️ from Doodie, 2023</Text>
+
+          <MediaQuery smallerThan='xs' styles={(theme) => ({ marginTop: theme.spacing.md })}>
+            <Group spacing={0} position='right' noWrap>
+              <ActionIcon
+                size='lg'
+                component='a'
+                href='https://www.linkedin.com/in/kostya-yurkevich'
+                target='_blank'
+              >
+                <IconBrandLinkedin size='1.05rem' stroke={1.5} />
+              </ActionIcon>
+              <ActionIcon
+                size='lg'
+                component='a'
+                href='https://github.com/Doooodie'
+                target='_blank'
+              >
+                <IconBrandGithub size='1.05rem' stroke={1.5} />
+              </ActionIcon>
+              <ActionIcon
+                size='lg'
+                component='a'
+                href='mailto:unfair.slenderman@gmail.com'
+                target='_blank'
+              >
+                <IconMail size='1.05rem' stroke={1.5} />
+              </ActionIcon>
+            </Group>
+          </MediaQuery>
+        </Container>
+      </MediaQuery>
+    </MantineFooter>
   );
 }
 
