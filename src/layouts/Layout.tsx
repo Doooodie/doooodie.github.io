@@ -5,6 +5,7 @@ import Projects from 'components/Projects';
 import Contacts from 'components/Contacts';
 import Header from './Header';
 import Footer from './Footer';
+import 'styles/main.css';
 
 function Layout() {
   return (
