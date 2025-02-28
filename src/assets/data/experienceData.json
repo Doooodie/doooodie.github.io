@@ -1,5 +1,22 @@
 [
   {
+    "value": "leverx",
+    "name": "LeverX",
+    "link": "https://leverx.com/",
+    "startDate": "February 2025",
+    "endDate": "Today",
+    "skills": [
+      "React components (functional and class components)",
+      "State management (Redux, Redux Toolkit)",
+      "React Router",
+      "Hooks",
+      "API integration (Axios, RTK Query)",
+      "Styling (Styled Components, CSS modules, Material UI, Mantine)",
+      "Testing (Vitest, React Testing Library, Cypress)",
+      "Performance optimization (memoization, code splitting, lazy loading)"
+    ]
+  },
+  {
     "value": "rs-react",
     "name": "RS School / React",
     "link": "https://drive.google.com/file/d/1XtpiRWLC3NtDIOc8uKXwFLtF3AD-KDyn/view?usp=sharing",
