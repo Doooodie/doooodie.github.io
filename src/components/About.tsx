@@ -10,7 +10,7 @@ function About() {
 
           <MediaQuery smallerThan='xs' styles={{ fontSize: 36 }}>
             <Title order={1} size={60} c='blue'>
-              Kostya Yurkevich
+              Kanstantsin Yurkevich
             </Title>
           </MediaQuery>
 
